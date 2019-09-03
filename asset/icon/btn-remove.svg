@@ -1,0 +1,25 @@
+<svg id="btn_remove" data-name="btn remove" xmlns="http://www.w3.org/2000/svg" width="49.371" height="49.371" viewBox="0 0 49.371 49.371">
+  <circle id="Ellipse_5" data-name="Ellipse 5" cx="24.686" cy="24.686" r="24.686" fill="#ed254e"/>
+  <g id="trash" transform="translate(15.555 14.15)">
+    <g id="Group_17" data-name="Group 17" transform="translate(0)">
+      <g id="Group_16" data-name="Group 16" transform="translate(0)">
+        <path id="Path_19" data-name="Path 19" d="M52.251,1.984h-5.66v-1A.986.986,0,0,0,45.607,0h-3.94a.986.986,0,0,0-.984.985v1h-5.66a.5.5,0,1,0,0,.991h.919l.626,16.3a1.845,1.845,0,0,0,1.849,1.78H48.857a1.845,1.845,0,0,0,1.849-1.78l.626-16.3h.919a.5.5,0,1,0,0-.991ZM41.675.991H45.6v.993H41.675Zm8.041,18.25a.857.857,0,0,1-.859.826H38.418a.857.857,0,0,1-.859-.827L36.934,2.975H50.34Z" transform="translate(-34.528)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(5.1 6.982)">
+      <g id="Group_18" data-name="Group 18">
+        <path id="Path_20" data-name="Path 20" d="M159.526,170.24a.5.5,0,0,0-.5-.486h-.01a.5.5,0,0,0-.486.5l.156,8.088a.5.5,0,0,0,.5.486h.01a.5.5,0,0,0,.486-.505Z" transform="translate(-158.535 -169.754)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(8.613 6.982)">
+      <g id="Group_20" data-name="Group 20">
+        <path id="Path_21" data-name="Path 21" d="M244.445,169.753a.5.5,0,0,0-.5.5v8.088a.5.5,0,1,0,.991,0v-8.088A.5.5,0,0,0,244.445,169.753Z" transform="translate(-243.949 -169.753)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_23" data-name="Group 23" transform="translate(11.971 6.982)">
+      <g id="Group_22" data-name="Group 22">
+        <path id="Path_22" data-name="Path 22" d="M326.244,169.753a.5.5,0,0,0-.5.486l-.156,8.088a.5.5,0,0,0,.486.5h.01a.5.5,0,0,0,.5-.486l.156-8.088A.5.5,0,0,0,326.244,169.753Z" transform="translate(-325.584 -169.753)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
