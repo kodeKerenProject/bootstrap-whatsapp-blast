@@ -1043,6 +1043,7 @@ Login Area
 
 .main_bg {
     background: #F7F9F9 no-repeat;
+    height: 100vh;
 }
 
 .main_bg p, h3, h4 {
@@ -1093,7 +1094,8 @@ Login Area
   border-radius: 10px;
   overflow-x: hidden;
   padding-top: 20px;
-    padding-bottom: 50px;
+  padding-bottom: 150px;
+
 }
 
 /* Style the sidenav links and the dropdown button */

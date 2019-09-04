@@ -184,7 +184,7 @@
 
 
 
-    <script>
+   <script>
         /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
         var i;
@@ -200,8 +200,26 @@
                 }
             });
         }
+
     </script>
 
+   <!-- Navbar -->
+   
+    <script>
+        
+        
+        $('.dropdown-scnd').click(function(){
+                                  $(this).addClass('active');
+            var nextEl=$(this).next();
+            $(this).css("background-color") == "rgb(255, 255, 255)"
+            if(nextEl.css("display")=="block"){
+                nextEl.css("display","none");
+            }else {
+                nextEl.css("display","block");
+            }
+        });
+
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

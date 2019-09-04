@@ -1203,6 +1203,21 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .wrap_contact {
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+    
+    .wrap_contact .col-lg-4 p {
+    word-wrap: break-word;
+    width: 14rem;
+    line-height: 25px;
+    opacity: 0.8;
+}
 
 
 
