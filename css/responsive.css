@@ -1169,7 +1169,11 @@
     .dropdown_container_wrapper {
         display: none;
         background-color: #089B72;
-        padding: 0 0 20px 50px;
+        padding: 20px 10px 20px 50px;
+    }
+    
+    .dropdown_container_wrapper a {
+        line-height: 2;
     }
 
     .content_btn_logout {
