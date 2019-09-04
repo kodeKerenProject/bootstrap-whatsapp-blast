@@ -256,6 +256,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item:last-child {
+    background: none;
   margin-right: 0px;
 }
 
@@ -397,8 +398,8 @@ button:focus {
 }
 
 .banner_btn_login {
-    margin-top: 30px;
-     padding: 0px 35px;
+  margin-top: 30px;
+  padding: 0px 35px;
   line-height: 40px;
   background: #003459;
   color: #ffffff;
@@ -601,7 +602,8 @@ button:focus {
 }
 
 .regis_area_inner .regis_area_text h2 {
-    margin-left: 95px;
+    display: block;
+    text-align: center;
     margin-top: -30px;
     margin-bottom: 40px;
     color: #424242;
@@ -862,11 +864,6 @@ Login Area
 }
 
 
-/* ========================
- == Dashboard
-=====================================
-======================
-*/
 
 
 /* ====== Navbar ====== */
@@ -957,7 +954,33 @@ Login Area
      background: #F7F9F9;
 }
 
+.dashboard_area h1 {
+    color: #424242;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.dashboard_area .dashboard_right .wrap_contact h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.dashboard_area .dashboard_right .wrap_contact p {
+    color: #ffffff;
+}
+
+
+.dashboard_main {
+    float: right;
+    width: 40%;
+    background: #F7F9F9;
+}
+
+
 .dashboard_left {
+    position: fixed;
+    top: 0;
+    bottom: 0;
     float: left;
     width: 40vh;
     background-image: linear-gradient(to right top, #09bc8a, #00bcb7, #00b8df, #00b0fa, #57a2ff);
@@ -1005,7 +1028,6 @@ Login Area
 }
 
 
-
 /*=====
   Contact Area
 ===================================
@@ -1014,6 +1036,7 @@ Login Area
 
 .main_content {
     background: #F7F9F9;
+    height: 100vh;
 }
 
 .main_content p, h3, h4 {
@@ -1095,7 +1118,7 @@ Login Area
 }
 
 /* Add an active class to the active dropdown button */
-.active {
+.sidenav_active {
   background-color: #089B72;
   color: #C2EABD;
 }
@@ -1194,7 +1217,8 @@ Login Area
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-.wrap_contact h5 {
+.wrap_contact h2, h5 {
+    font-family: 'Poppins', sans-serif;
     color: #000;
 }
 
@@ -1214,10 +1238,10 @@ Login Area
     font-size: 18px;
 }
 
-.wrap_text {
+.wrap_text p{
     word-break: break-all;
-    width: 30rem;
-    line-height: 100px;
+    width: 27rem;
+    line-height: 1.3;
     opacity: 0.8;
 }
 
@@ -1231,7 +1255,7 @@ Login Area
 .wrap_contact .col-lg-6 p {
     word-wrap: break-word;
     width: 80rem;
-    line-height: 25px;
+    line-height: 1.3;
     opacity: 0.8;
 }
 
@@ -1297,12 +1321,35 @@ Login Area
     height: 100vh;
 }
 
+.wrap_image {
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+}
+
+
+.centered h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #424242;
+}
+
+.centered p {
+    color: #424242;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 .empty_cart .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.left_align {
+    text-align: left;
 }
 
 .empty_cart .centered h2 {
@@ -1361,6 +1408,83 @@ Login Area
     font-size: 18px;
     font-weight: 600;
 }
+
+
+/* ===
+==== Checkbox 
+======================================
+======================
+
+/* The container */
+.container_checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark_checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container_checkbox:hover input ~ .checkmark_checkbox {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_checkbox input:checked ~ .checkmark_checkbox {
+  background-color: #09BC8A;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark_checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container_checkbox input:checked ~ .checkmark_checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_checkbox .checkmark_checkbox:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+*/
+
 
 /* ==
 == Radio Button 
