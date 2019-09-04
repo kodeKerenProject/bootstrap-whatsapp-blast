@@ -953,6 +953,14 @@ Login Area
     margin-top: 20px;
 }
 
+.cart_navbar {
+    margin-left: 30px;
+}
+
+.cart_navbar_wrap {
+    display: none;
+}
+
 .header_content .navbar {
     background: #09BC8A;
     padding: 0px;

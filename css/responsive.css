@@ -1218,6 +1218,25 @@
     line-height: 25px;
     opacity: 0.8;
 }
+    
+    .cart_navbar {
+    display: none;
+}
+
+.cart_navbar_wrap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        background: transparent;
+        color: #fff;
+        border: 2px solid #003459;
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 16px;
+}
 
 
 

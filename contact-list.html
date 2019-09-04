@@ -37,8 +37,7 @@
 
                     <p class="token_white"><img src="asset/icon/coin-stack.svg" alt="Token">&nbsp; 200 Messages (expired in 30 days)&nbsp; <a href=""><img src="asset/icon/plus.svg" alt="TopUp"></a></p>
                     
-                    <img style="margin-left: 20px;" src="asset/icon/shopping-cart.svg" alt="">
-
+                    <img class="cart_navbar" src="asset/icon/shopping-cart.svg" alt="">
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
@@ -78,13 +77,9 @@
                                 </div>
                                 </li>
 
-                                <li class="nav_item_wrapper"><button class="dropdown-scnd"><img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
+                                <li class="nav_item_wrapper"><a href="add-messages.html"><img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
                                         <p>Pesan <i class="fa fa-caret-down"></i></p>
-                                    </button>
-                                
-                                <div class="dropdown_container_wrapper">
-                                    <a href="add-messages.html">Tambah Template</a>
-                                </div>
+                                    </a>
                                 </li>
 
                                 <li class="nav_item_wrapper"><a href="settings.html"><img class="icon_svg" src="asset/icon/gears.svg" alt="">
@@ -104,6 +99,9 @@
                                 </li>
 
                             </div>
+                            
+                            
+                               <a href="cart.html"><p class="cart_navbar_wrap"><img src="asset/icon/shopping-cart.svg" alt="">&nbsp; Cart</p></a>
                             
                             
                             <li class="dropdown-btn"><a class="content_btn_logout" href="login.html"><img src="asset/icon/logout.svg" alt="">&nbsp; Logout</a></li>
@@ -145,13 +143,10 @@
                     <a href="add-template.html">Tambah Template</a>
                 </div>
                 <!-- Pesan -->
-                <button class="dropdown-btn"><img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
-                    <p>Pesan <i class="fa fa-caret-down"></i></p>
-
-                </button>
-                <div class="dropdown-container">
-                    <a class="active" href="add-messages.html">Tambah Pesan</a>
-                </div>
+                <a href="add-messages.html">
+                    <img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
+                    <p>Pesan</p>
+                </a>
 
                 <!-- Settings -->
                 <a href="settings.html"><img class="icon_svg" src="asset/icon/gears.svg" alt="">
