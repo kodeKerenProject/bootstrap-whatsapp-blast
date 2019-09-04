@@ -29,9 +29,11 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html">
-                        <h3>WhatsAppBlast</h3>
-                    </a>
+                    <div class="navbar_contact">
+                        <a class="navbar-brand logo_h" href="index.html">
+                            <h3>WhatsAppBlast</h3>
+                        </a>
+                    </div>
 
                     <p class="token_white"><img src="asset/icon/coin-stack.svg" alt="Token">&nbsp; 200 Messages (expired in 30 days)&nbsp; <a href=""><img src="asset/icon/plus.svg" alt="TopUp"></a></p>
 
@@ -44,8 +46,63 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a href="cart.html" class="nav-link"><img src="asset/icon/shopping-cart.svg" alt=""></a></li>
-                            <li><a class="content_btn_logout" href="login.html"><img src="asset/icon/logout.svg" alt="">&nbsp; Logout</a></li>
+
+                            <div class="sidenav_wrapper">
+                                <li class="nav_item_wrapper"><a href="dashboard.html"><img class="icon_svg" src="asset/icon/home.svg" alt="">
+                                        <p>Home</p>
+                                </a>
+                                </li>
+
+                                <li class="nav_item_wrapper">
+                                    <button class="dropdown-scnd"><img class="icon_svg" src="asset/icon/contact.svg" alt="">
+                                        <p>Kontak <i class="fa fa-caret-down"></i></p>
+                                    </button>
+                                
+                                <div class="dropdown_container_wrapper">
+                                    <a href="contact-list.html">Daftar Kontak</a>
+                                    <a href="add-contact.html">Tambah Kontak</a>
+                                    <a href="group-list.html">Daftar Grup</a>
+                                    <a href="add-grup.html">Tambah Grup</a>
+                                </div>
+                                </li>
+
+                                <li class="nav_item_wrapper"><button class="dropdown-scnd"><img class="icon_svg" src="asset/icon/layout.svg" alt="">
+                                        <p>Template <i class="fa fa-caret-down"></i></p>
+                                    </button>
+                                
+                                <div class="dropdown_container_wrapper">
+                                    <a href="template-list.html">Daftar Template</a>
+                                    <a href="add-template.html">Tambah Template</a>
+                                </div>
+                                </li>
+
+                                <li class="nav_item_wrapper"><button class="dropdown-scnd"><img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
+                                        <p>Pesan <i class="fa fa-caret-down"></i></p>
+                                    </button>
+                                
+                                <div class="dropdown_container_wrapper">
+                                    <a href="add-messages.html">Tambah Template</a>
+                                </div>
+                                </li>
+
+                                <li class="nav_item_wrapper"><a href="settings.html"><img class="icon_svg" src="asset/icon/gears.svg" alt="">
+                                        <p>Settings</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav_item_wrapper"><button class="dropdown-scnd"><img class="icon_svg" src="asset/icon/top-up.svg" alt="">
+                                        <p>Top Up <i class="fa fa-caret-down"></i></p>
+                                    </button>
+                                
+                                <div class="dropdown_container_wrapper">
+                                    <a href="price-list.html">Daftar Harga</a>
+                                    <a href="top-up-deposit.html">Top Up</a>
+                                    <a href="detail-order.html">Detail order</a>
+                                </div>
+                                </li>
+
+                            </div>
+                            <li class="dropdown-btn"><a class="content_btn_logout" href="login.html"><img src="asset/icon/logout.svg" alt="">&nbsp; Logout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +112,7 @@
 
 
 
-    <div class="main_content">
+    <div class="main_bg">
         <div class="container">
             <div class="sidenav">
                 <a href="dashboard.html"><img class="icon_svg" src="asset/icon/home.svg" alt="">
@@ -65,35 +122,35 @@
                 <!-- Contact -->
                 <button class="dropdown-btn"><img class="icon_svg" src="asset/icon/contact.svg" alt="">
                     <p>Contact <i class="fa fa-caret-down"></i></p>
-                    
+
                 </button>
                 <div class="dropdown-container">
-                    <a class="active" href="contact-list.html">Daftar Kontak</a>
-                    <a href="#">Tambah Contact</a>
+                    <a class="sidenav_active" href="contact-list.html">Daftar Kontak</a>
+                    <a href="add-contact.html">Tambah Contact</a>
                     <a href="group-list.html">Daftar Grup</a>
-                    <a href="#">Tambah Grup</a>
+                    <a href="add-grup.html">Tambah Grup</a>
                 </div>
 
                 <!-- Template -->
                 <button class="dropdown-btn"><img class="icon_svg" src="asset/icon/layout.svg" alt="">
                     <p>Template <i class="fa fa-caret-down"></i></p>
-                    
+
                 </button>
                 <div class="dropdown-container">
                     <a href="template-list.html">Daftar Template</a>
-                    <a href="#">Tambah Template</a>
+                    <a href="add-template.html">Tambah Template</a>
                 </div>
                 <!-- Pesan -->
                 <button class="dropdown-btn"><img class="icon_svg" src="asset/icon/paper-plane.svg" alt="">
                     <p>Pesan <i class="fa fa-caret-down"></i></p>
-                    
+
                 </button>
                 <div class="dropdown-container">
-                    <a class="active" href="contact-list.html">Tambah Pesan</a>
+                    <a class="active" href="add-messages.html">Tambah Pesan</a>
                 </div>
 
-                <!-- Report -->
-                <a href=""><img class="icon_svg" src="asset/icon/gears.svg" alt="">
+                <!-- Settings -->
+                <a href="settings.html"><img class="icon_svg" src="asset/icon/gears.svg" alt="">
                     <p>Settings</p>
                 </a>
 
@@ -104,8 +161,8 @@
                 </button>
                 <div class="dropdown-container">
                     <a class="active" href="price-list.html">Daftar Harga</a>
-                    <a class="active" href="contact-list.html">Top Up</a>
-                    <a class="active" href="contact-list.html">Detail Order</a>
+                    <a class="active" href="top-up-deposit.html">Top Up</a>
+                    <a class="active" href="detail-order.html">Detail Order</a>
                 </div>
             </div>
 
@@ -146,7 +203,7 @@
                                             <span class="checkmark_checkbox"></span>
                                             <p>Rifqi ini adalah contoh nama panjang </p>
                                         </label>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="col-lg-4" style="text-align: center;">
@@ -170,7 +227,7 @@
                                             <span class="checkmark_checkbox"></span>
                                             <p>Rifqi ini adalah contoh nama panjang </p>
                                         </label>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="col-lg-4" style="text-align: center;">
@@ -185,6 +242,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -193,23 +251,8 @@
 
 
 
-    <script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-        var dropdown = document.getElementsByClassName("dropdown-btn");
-        var i;
 
-        for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var dropdownContent = this.nextElementSibling;
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none";
-                } else {
-                    dropdownContent.style.display = "block";
-                }
-            });
-        }
-    </script>
+
 
 
     <!-- Optional JavaScript -->
@@ -228,5 +271,61 @@
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+
     <script src="js/theme.js"></script>
-</body></html>
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+
+   <!-- Navbar -->
+   
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+//        var dropdown2 = document.getElementsByClassName("dropdown-scnd");
+//        var i;
+//
+//        for (i = 0; i < dropdown2.length; i++) {
+//            dropdown[i].addEventListener("click", function() {
+//                this.classList.toggle("active");
+//                var dropdownContent2 = this.nextElementSibling;
+//                console.log(dropdownContent2);
+//                if (dropdownContent2.style.display === "block") {
+//                    dropdownContent2.style.display = "none";
+//                    
+//                } else {
+//                    dropdownContent2.style.display = "block";
+//                        
+//                }
+//            });
+//        }
+        
+        $('.dropdown-scnd').click(function(){
+                                  $(this).addClass('active');
+            var nextEl=$(this).next();
+            $(this).css("background-color") == "rgb(255, 255, 255)"
+            if(nextEl.css("display")=="block"){
+                nextEl.css("display","none");
+            }else {
+                nextEl.css("display","block");
+            }
+        });
+
+    </script>
+</body>
+
+</html>

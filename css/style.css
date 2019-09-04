@@ -572,7 +572,7 @@ button:focus {
   vertical-align: middle;
   -ms-flex-item-align: center;
   align-self: center;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .regis_area_inner .col-lg-6 .img-fluid {
@@ -969,6 +969,10 @@ Login Area
     color: #ffffff;
 }
 
+.dashboard_navbar {
+    display: none;
+}
+
 
 .dashboard_main {
     float: right;
@@ -1004,15 +1008,18 @@ Login Area
     padding: 20px 40px;
 }
 
+.dashboard_right .col-lg-1{
+    margin-top: 10px;
+}
 
 .token {
-    margin-top: 15px;
-    padding: 10px 20px;
+    float: left;
+    text-align: center;
+    width: 25rem;
     background: transparent;
     border: 2px solid #FDD835;
     border-radius: 40px;
-    color: #424242;
-    font-size: 14px;
+    padding: 10px;
 }
 
 .token_white {
@@ -1034,12 +1041,11 @@ Login Area
 ============================
 */
 
-.main_content {
-    background: #F7F9F9;
-    height: 100vh;
+.main_bg {
+    background: #F7F9F9 no-repeat;
 }
 
-.main_content p, h3, h4 {
+.main_bg p, h3, h4 {
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
@@ -1070,6 +1076,10 @@ Login Area
 
 .wrap_content {
     margin-top: 100px;
+}
+
+.sidenav_wrapper {
+    display: none;
 }
 
 /* Fixed sidenav, full height */

@@ -51,6 +51,50 @@
         max-width: 472px;
     }
 
+    /* =====
+    Dashboard Area 
+    ============================
+    */
+
+    .dashboard_navbar {
+        display: none;
+    }
+
+    .dashboard_left {
+        max-width: 27rem;
+    }
+
+    .dashboard_left img {
+        margin-top: 60px;
+        width: 328px;
+        height: auto;
+    }
+
+    .dashboard_right .col-lg-8 {
+        display: contents;
+    }
+
+    .dashboard_right .col-lg-3 {
+        display: contents;
+    }
+
+    .token {
+        display: none;
+    }
+
+    .token_navbar {
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 22rem;
+        background: transparent;
+        color: #fff;
+        border: 2px solid #FDD835;
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
 
     /* ====
     == Regis Role  
@@ -437,6 +481,40 @@
 
     }
 
+    /* =====
+    Dashboard Area 
+    ============================
+    */
+
+    .dashboard_navbar {
+        display: contents;
+    }
+
+    .dashboard_left {
+        display: none;
+    }
+
+    .dashboard_right .col-lg-3 {
+        display: none;
+    }
+
+    .token {
+        display: none;
+    }
+
+    .token_navbar {
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 22rem;
+        background: transparent;
+        color: #fff;
+        border: 2px solid #FDD835;
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
 
     /* Footer Area css
 	============================================================================================ */
@@ -789,6 +867,117 @@
 
     }
 
+    /* =====
+    Dashboard Area 
+    ============================
+    */
+
+    .dashboard_navbar {
+        display: contents;
+    }
+
+    .dashboard_left {
+        display: none;
+    }
+
+    .dashboard_right .col-lg-3 {
+        display: none;
+    }
+
+    .token {
+        display: none;
+    }
+
+    .token_navbar {
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 22rem;
+        background: transparent;
+        color: #fff;
+        border: 2px solid #FDD835;
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    
+    /* ===
+    == Contact List
+    ================================
+    */
+
+    .navbar_contact {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .sidenav_wrapper {
+        display: contents;
+        overflow-y: scroll;
+    }
+
+    .sidenav_wrapper .nav_item_wrapper p {
+        margin-top: -30px;
+        margin-left: 50px;
+        padding-left: 20px;
+        color: #fff;
+    }
+
+    .sidenav_wrapper a,
+    .dropdown-scnd {
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .sidenav_wrapper_active {
+        background-color: #089B72;
+        color: #C2EABD;
+    }
+
+
+    .dropdown_container_wrapper {
+        display: none;
+        background-color: #089B72;
+        padding: 0 0 20px 50px;
+    }
+
+    .content_btn_logout {
+        width: 100%;
+        text-align: center;
+        padding: 0px 25px;
+        line-height: 40px;
+        background: #003459;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 50px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        -webkit-transition: all 300ms linear 0s;
+        -o-transition: all 300ms linear 0s;
+        transition: all 300ms linear 0s;
+    }
+
+
+    .main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 }
 
@@ -888,19 +1077,125 @@
     ===================================
     */
 
+    .dashboard_navbar {
+        display: contents;
+    }
+
     .dashboard_left {
         display: none;
     }
 
+    .dashboard_right .col-lg-3 {
+        display: none;
+    }
+
     .token {
-        margin-top: 15px;
-        padding: 5px 15px;
+        display: none;
+    }
+
+    .token_navbar {
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 18rem;
         background: transparent;
+        color: #fff;
         border: 2px solid #FDD835;
         border-radius: 40px;
-        color: #424242;
+        padding: 10px;
         font-size: 12px;
     }
+
+    .token_white {
+        margin-left: 0;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 18rem;
+        background: transparent;
+        color: #fff;
+        border: 2px solid #FDD835;
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* ===
+    == Contact List
+    ================================
+    */
+
+    .navbar_contact {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .sidenav_wrapper {
+        display: contents;
+        overflow-y: scroll;
+    }
+
+    .sidenav_wrapper .nav_item_wrapper p {
+        margin-top: -30px;
+        margin-left: 50px;
+        padding-left: 20px;
+        color: #fff;
+    }
+
+    .sidenav_wrapper a,
+    .dropdown-scnd {
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .sidenav_wrapper_active {
+        background-color: #089B72;
+        color: #C2EABD;
+    }
+
+
+    .dropdown_container_wrapper {
+        display: none;
+        background-color: #089B72;
+        padding: 0 0 20px 50px;
+    }
+
+    .content_btn_logout {
+        width: 100%;
+        text-align: center;
+        padding: 0px 25px;
+        line-height: 40px;
+        background: #003459;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 50px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        -webkit-transition: all 300ms linear 0s;
+        -o-transition: all 300ms linear 0s;
+        transition: all 300ms linear 0s;
+    }
+
+
+    .main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 
 }
